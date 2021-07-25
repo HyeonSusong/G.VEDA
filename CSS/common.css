@@ -1,0 +1,137 @@
+html{
+    font-family: 'NanumGothic';
+}
+
+nav{
+    width: 100%;
+}
+
+nav div{
+    display: inline-block;;
+}
+
+nav p{
+/**    color: #B49B57;
+*/  
+    color: #cacaca;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'BadalDohyeon';
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+nav div.navbar-container{
+    margin: 20px auto;
+    display: block;
+    border-bottom: #cacaca 1px solid;
+}
+
+nav div.navbar-container div.nav-logo-wrapper{
+    margin-left: 40px;
+}
+
+nav div.navbar-container div.nav-logo-wrapper img{
+    cursor: pointer;
+    width: 180px;
+}
+
+nav div.navbar-container div.nav-menu-list-wrapper{
+    margin-bottom: 10px;
+}
+
+nav div.navbar-container div.nav-menu-list-wrapper ul.menu-list{
+    list-style: none;
+    margin: 0px;
+}
+
+nav div.navbar-container div.nav-menu-list-wrapper ul.menu-list li{
+    margin: 0px 20px 0px 20px;
+    display: inline-block;;
+    padding: 0px;
+    cursor: pointer;
+}
+
+nav div.navbar-container div.nav-menu-list-wrapper ul.menu-list li p{
+    transition-duration: 500ms;
+}
+
+nav div.navbar-container div.nav-menu-list-wrapper ul.menu-list li:hover p{
+    color: #B49B57;
+    transition-duration: 500ms;
+}
+
+nav div.navbar-container div.nav-btn-wrapper{
+       
+}
+
+nav div.nav-toggle-btn-wrapper{
+    display: none;
+}
+
+body{
+    background-color: #2b373f;
+}
+
+
+footer{
+    width: 100%;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer p{
+    font-size: 14px;
+    color: #fafafa;
+    font-weight: 600;
+    margin: 0px;
+}
+
+footer div.footer-container{
+    display: block;
+}
+
+footer div.footer-container div.footer-logo-wrapper{
+
+}
+
+footer div.footer-container div.footer-logo-wrapper div.footer-logo{
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+footer div.footer-container div.footer-logo-wrapper div.footer-logo img{
+    width: 180px;
+} 
+
+
+footer div.footer-container div.footer-text-wrapper{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+@media(max-width: 768px) {
+    
+}
+
+@media(max-width: 648px) {
+    nav div{
+        display: block;
+    }
+    nav div.navbar-container {
+        display: none;
+    }
+}
+
+
+@font-face {
+    font-family: 'NanumGothic';
+    src: url(/CSS/font/NanumGothic.ttf);
+
+    font-family: 'BadalDohyeon';
+    src: url(/CSS/font/BMDOHYEON_ttf.ttf);
+}
